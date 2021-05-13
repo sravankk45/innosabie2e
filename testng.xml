@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Innovation Challenge Test Suite">	
+	<listeners>
+		<listener class-name="com.innosabi.e2e.reports.ExtentReporter" />
+	</listeners>
+	<test name="Innovation Challenge Tests">
+		<classes>
+		<class name="com.innosabi.e2e.tests.InnovationChallengeTest"></class>
+		</classes>
+	</test>
+</suite>
