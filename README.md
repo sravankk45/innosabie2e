@@ -29,6 +29,7 @@
 	* url = https://e2e.innosabi.com/
 	* email = "enter email id here"
 	* password = "enter password here"
+	* browser = chrome  or FF (for firefox)
 
 * TestBase class (com.innosabi.e2e.base package) is base class for all tests and it provides configurations like url, email, password and browser details
 * All test classes (com.innosabi.e2e.tests package) extends TestBase class to inherit base configuration data.
